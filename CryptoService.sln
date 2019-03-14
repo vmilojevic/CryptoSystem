@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoService", "CryptoService\CryptoService.csproj", "{2E0334FC-C932-4D08-9103-B27EBAD16A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoClient", "CryptoClient\CryptoClient.csproj", "{9A6BA22A-174F-4CFD-AEE0-81D07322D107}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E0334FC-C932-4D08-9103-B27EBAD16A22} = {2E0334FC-C932-4D08-9103-B27EBAD16A22}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCore", "CryptoCore\CryptoCore.csproj", "{0536A396-D76C-4003-A736-4C89A07CE195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0334FC-C932-4D08-9103-B27EBAD16A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0334FC-C932-4D08-9103-B27EBAD16A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0334FC-C932-4D08-9103-B27EBAD16A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0334FC-C932-4D08-9103-B27EBAD16A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6BA22A-174F-4CFD-AEE0-81D07322D107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6BA22A-174F-4CFD-AEE0-81D07322D107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6BA22A-174F-4CFD-AEE0-81D07322D107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6BA22A-174F-4CFD-AEE0-81D07322D107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0536A396-D76C-4003-A736-4C89A07CE195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0536A396-D76C-4003-A736-4C89A07CE195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0536A396-D76C-4003-A736-4C89A07CE195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0536A396-D76C-4003-A736-4C89A07CE195}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C735824-E4F4-4D40-9B3A-EAAF30D7ABF5}
+	EndGlobalSection
+EndGlobal
